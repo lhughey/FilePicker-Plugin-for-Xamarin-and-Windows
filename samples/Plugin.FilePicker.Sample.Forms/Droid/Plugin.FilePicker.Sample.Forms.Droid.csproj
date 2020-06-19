@@ -46,10 +46,6 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Plugin.FilePicker\Plugin.FilePicker.csproj">
-      <Project>{507fa967-a579-44fe-9ca3-7cee18b5257b}</Project>
-      <Name>Plugin.FilePicker</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Forms\Plugin.FilePicker.Sample.Forms.csproj">
       <Project>{bc539575-3b77-4a4a-8f3a-2203bb590674}</Project>
       <Name>Plugin.FilePicker.Sample.Forms</Name>
@@ -77,6 +73,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
       <Version>4.5.0.356</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Plugin.FilePicker">
+      <Version>2.1.34</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

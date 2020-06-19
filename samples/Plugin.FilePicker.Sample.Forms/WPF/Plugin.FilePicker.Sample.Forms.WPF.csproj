@@ -101,6 +101,9 @@
     <PackageReference Include="Xamarin.Forms.Platform.WPF">
       <Version>4.5.0.356</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Plugin.FilePicker">
+      <Version>2.1.34</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\Plugin.FilePicker\Plugin.FilePicker.csproj">
